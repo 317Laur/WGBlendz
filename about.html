@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>WG Blendz</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <script src="index.js" async defer></script>
+
+        <header class="header">
+            <div class="hLeftContainer">
+                <h1>WG Blendz</h1>
+                <nav class="headerLinks">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="headerButtons">
+                <button>Sign Up</button>
+                <button>Sign In</button>
+            </div>
+        </header>
+
+        <div class="aboutContainer">
+            <p>Your about information goes here. klsndaskldnaskldnaskldnaslkndaslkndal askldnaslkdnasklnd 
+            anskldnaslkdnl skdnalkdnaslkdnalkn  lknsadlkasndlkn lknaslkdnaslkdn</p>
+            <img src="imgs\Shouts-BaldManifesto.jpg" alt="About Image">
+        </div>
+
+        <div class="contactMe">
+            <h2>Contact Me</h2>
+            <p>Email: <a href="mailto:wgblendz@gmail.com">wgblendz@gmail.com</a></p>
+            <p>Phone: <a href="tel:555-555-5555">(555) 555-5555</a></p>
+            <textarea id="messageBox" rows="4" cols="50" placeholder="Write your message here..."></textarea><br>
+            <button onclick="sendEmail()">Send</button>
+        </div>
+
+        <footer class="footer">
+            <nav class="Fcontainer">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                </ul>
+            </nav>
+        </footer>
+
+        <!-- <script>                                             commented out for testing
+            function sendEmail() {
+                const message = document.getElementById('messageBox').value;
+                const mailtoLink = `mailto:wgblendz@gmail.com?subject=Contact&body=${encodeURIComponent(message)}`;
+                window.location.href = mailtoLink;
+            }
+        </script> -->
+        
+    </body>
+</html>
